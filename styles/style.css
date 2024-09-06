@@ -114,8 +114,28 @@ li a {
     margin-top: 5px;
     margin-bottom: 0;
 }
-.banner-para{
+
+.banner-para {
     width: 585px;
     margin-top: 20px;
     color: rgb(117, 117, 117);
 }
+
+/* main section */
+
+main {
+
+
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+   margin: 230px 0px;
+}
+
+.about {
+    padding: 209px 157px;
+    text-align: center;
+    
+}
+
+
+/* about section */
