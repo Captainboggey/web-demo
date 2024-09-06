@@ -124,18 +124,79 @@ li a {
 /* main section */
 
 main {
+    max-width: 1140px;
+    margin: 0 auto;
 
 
-    border-radius: 10px;
-    background: rgb(255, 248, 243);
-   margin: 230px 0px;
+
 }
 
 .about {
     padding: 209px 157px;
+
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    margin: 230px 0px;
+
+
+}
+
+.about-headline {
+    font-size: 35px;
+
+    font-weight: 700;
+    color: rgb(24, 24, 24);
     text-align: center;
-    
+}
+
+.about-content {
+    color: rgb(117, 117, 117);
+
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+    text-align: center;
 }
 
 
 /* about section */
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-des {
+    text-align: center;
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+.about-title {
+    color: rgb(117, 117, 117);
+}
+
+.about-info {
+    text-align: center;
+}
+
+.what-des {
+    text-align: center;
+}
+
+.what-pera {
+    color: rgb(117, 117, 117);
+
+    font-family: Open Sans;
+
+    font-size: 18px;
+
+    font-weight: 400;
+}
+
+.mother-box{
+    display: flex;
+    
+}
